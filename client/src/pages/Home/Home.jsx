@@ -7,6 +7,7 @@ import { Slide } from "@mui/material";
 
 export default function Home() {
     const { booksData } = useBookStore();
+    useEffect(() => {}, [booksData]);
 
     return (
         <Slide in direction="up">
